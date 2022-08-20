@@ -18,7 +18,6 @@ public class student {
         this.name = name;
 
         this.percentage = percentage;
-
         this.specialization = specialization;
     }
 
