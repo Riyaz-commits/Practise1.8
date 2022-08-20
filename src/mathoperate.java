@@ -13,6 +13,7 @@ public class mathoperate {
         System.out.println(calculate(sub));
         System.out.println(calculate(div));
         System.out.println("here it is ");
+
         }
     public static int calculate(math m)
     {
