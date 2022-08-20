@@ -9,6 +9,7 @@ public class MethodChain {
 
     public MethodChain SetA(int a)
     {
+        
         this.a=a;
         return this;
     }
