@@ -1,3 +1,5 @@
+import java.util.function.Supplier;
+
 public class mathoperate {
 
     public static void main(String[] args) {
@@ -16,6 +18,8 @@ public class mathoperate {
 
 
         System.out.println("1137 pm aug 20 2022");
+        Supplier<String> random = ()-> "Test"+Math.random();
+        System.out.println( random.get());
         }
     public static int calculate(math m)
     {
