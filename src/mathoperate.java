@@ -23,7 +23,9 @@ public class mathoperate {
 
         System.out.println("1137 pm aug 20 2022");
         Supplier<String> random = ()-> "Test"+Math.random();
+        //no def
         System.out.println( random.get());
+
         }
     public static int calculate(math m)
     {
