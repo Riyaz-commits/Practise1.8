@@ -16,7 +16,7 @@ public class mathoperate {
         System.out.println(calculate(div));
         System.out.println("here it is ");
 
-
+        System.out.println("Master new commit");
         System.out.println("1137 pm aug 20 2022");
         Supplier<String> random = ()-> "Test"+Math.random();
         System.out.println( random.get());
