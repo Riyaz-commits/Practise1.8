@@ -1,3 +1,7 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.function.Consumer;
+import java.util.function.Predicate;
 import java.util.function.Supplier;
 
 public class mathoperate {
@@ -26,7 +30,33 @@ public class mathoperate {
         //no def
         System.out.println( random.get());
 
+
+        String rn = random.get();
+
+        Consumer<String> cnc =(s)-> System.out.println(s+"concat");
+        cnc.accept("SDET");
+
+        Consumer<List<Integer>> doble = list->list.forEach(a-> System.out.println("Applied logic "+a*2));
+
+
+        List<Integer> li = new ArrayList<>();
+        li.add(2);
+        li.add(4);
+        li.add(6);
+        li.add(9);
+
+        doble.accept(li);
+
+
+   //     Predicate<String > pr =
+
+
         }
+
+
+
+
+
     public static int calculate(math m)
     {
     return    m.operation(34,65);
