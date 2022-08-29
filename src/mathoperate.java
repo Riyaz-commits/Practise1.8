@@ -44,7 +44,7 @@ public class mathoperate {
         li.add(4);
         li.add(6);
         li.add(9);
-
+        System.out.println("Before list "+li);
         doble.accept(li);
 
 
