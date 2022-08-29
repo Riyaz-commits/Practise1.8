@@ -46,11 +46,11 @@ public class mathoperate {
         li.add(9);
 
         System.out.println("New change master1");
-        System.out.println();
+        System.out.println("ABCD");
 
         System.out.println("Before list "+li);
 
-        System.out.println("Child Change");
+        System.out.println("Child Chanrge");
 
         doble.accept(li);
 
