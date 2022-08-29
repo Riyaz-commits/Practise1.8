@@ -46,7 +46,7 @@ public class mathoperate {
         li.add(9);
 
         System.out.println("New change master");
-
+        System.out.println("ABCD");
         System.out.println("Before list "+li);
 
         System.out.println("Child Change");
