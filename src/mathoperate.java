@@ -45,14 +45,10 @@ public class mathoperate {
         li.add(6);
         li.add(9);
 
-<<<<<<< HEAD
-        System.out.println("New change master");
-        System.out.println("ABCD");
-=======
-        System.out.println("New change master1");
-        System.out.println();
 
->>>>>>> rbsk
+        System.out.println("New change master");
+        System.out.println("ABCDEF");
+
         System.out.println("Before list "+li);
 
         System.out.println("Child Change");
