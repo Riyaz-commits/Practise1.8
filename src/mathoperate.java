@@ -56,7 +56,7 @@ public class mathoperate {
 
         System.out.println("Before list "+li);
 
-        System.out.println("Child Chanrge");
+        System.out.println("Child Chanrge1");
 
         doble.accept(li);
 
