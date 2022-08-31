@@ -59,7 +59,7 @@ public class mathoperate {
         System.out.println("Child Chanrge1");
 
         doble.accept(li);
-
+        System.out.println("git pract");
 
    //     Predicate<String > pr =
 
