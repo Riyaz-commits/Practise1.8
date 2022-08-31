@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Base64;
 import java.util.List;
 import java.util.function.Consumer;
 import java.util.function.Predicate;
@@ -63,17 +64,32 @@ public class mathoperate {
 
 
         doble.accept(li);
-
-
+        byte[] nb= Base64.getDecoder().decode("password");
+        System.out.println(nb);
    //     Predicate<String > pr =
 
+        mathoperate mp = new mathoperate();
+     int c=   mp.upcase("Riyaz").lowcase("BASHA").hashCode();
+        System.out.println(c);
 
 
 
         }
 
 
+        public  mathoperate upcase(String data)
+        {
+            System.out.println("hey" +data.toUpperCase());
 
+            return new mathoperate();
+        }
+
+    public  mathoperate lowcase(String data)
+    {
+        System.out.println("hey" +data.toLowerCase());
+
+        return new mathoperate();
+    }
 
 
     public static int calculate(math m)
