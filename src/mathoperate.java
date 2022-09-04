@@ -58,14 +58,13 @@ public class mathoperate {
         System.out.println("Before list "+li);
 
 
-        System.out.println("Child Chanrge1");
-
-        System.out.println("Child Chanrge2345");
-
-
         doble.accept(li);
+
+        System.out.println("git pract");
+
         byte[] nb= Base64.getDecoder().decode("password");
         System.out.println(nb);
+
    //     Predicate<String > pr =
 
         mathoperate mp = new mathoperate();
