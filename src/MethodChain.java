@@ -27,5 +27,6 @@ public class MethodChain {
     public static void main(String[] args) {
 
  new MethodChain().SetA(91).SetB("Riyaz").display();
+        System.out.println("Functions example ");
     }
 }
