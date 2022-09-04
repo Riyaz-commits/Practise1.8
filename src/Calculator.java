@@ -34,9 +34,8 @@ return onscreenNumber;
     }
 
     public static int calculate(int onscreenNumber,MathOperation op,int enterednumber){
-
-
-
+        /*  here we are peroming the operation using op as it has a functional interface implementation which is stored in the mp so we are performing
+        * the operation */
         return op.operation(onscreenNumber,enterednumber);
     }
 
